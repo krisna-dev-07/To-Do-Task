@@ -4,7 +4,7 @@ const listitems = document.getElementById("list-container");
 button.addEventListener("click", () => {
     const inputvalue = inputbox.value.trim();
     if (inputvalue === '') {
-        alert("Please write anything to add")
+        alert("Please write anything ")
     }
     else {
         let li = document.createElement("li");
